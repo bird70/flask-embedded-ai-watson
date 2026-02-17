@@ -1,6 +1,6 @@
 # Flask app: receives user input text, and analyzes text 
 from flask import Flask, request, render_template
-from Emotion_Detection.emotion_detection import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 # URL: 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
 # Headers: {"grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"}
